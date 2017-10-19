@@ -11,4 +11,4 @@ export class Proposal {
   ) {}
 }
 
-// 'ABC Company', 'http"//victorlaucas.com', 'Ruby on Rails', '150, 120, 15', 'victorlaucas@gmail.com'
+// 'ABC Company', 'http"//victorlaucas.com', 'Ruby on Rails', 150, 120, 15, 'victorlaucas@gmail.com'
