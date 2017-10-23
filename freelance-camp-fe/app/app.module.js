@@ -20,7 +20,7 @@ var proposal_new_component_1 = require("./proposal/proposal-new.component");
 var proposal_show_component_1 = require("./proposal/proposal-show.component");
 var proposal_service_1 = require("./proposal/proposal.service");
 var app_routing_module_1 = require("./app-routing.module");
-var AppModule = /** @class */ (function () {
+var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([

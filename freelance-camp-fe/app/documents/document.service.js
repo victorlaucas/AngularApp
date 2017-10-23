@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var http_1 = require("@angular/http");
 var Rx_1 = require("rxjs/Rx");
-var DocumentService = /** @class */ (function () {
+var DocumentService = (function () {
     function DocumentService(http) {
         this.http = http;
         this.documentsUrl = 'http://localhost:3001/freelance_documents.json';

@@ -8,16 +8,15 @@ import { ProposalService } from './proposal.service';
   selector: 'proposal-new',
   templateUrl: 'proposal-new.component.html',
   styleUrls: ['proposal-new.component.css'],
-  providers: [ProposalService]
+  providers: [ ProposalService ]
 })
-
 export class ProposalNewComponent {
   proposal = new Proposal;
   submitted: boolean = false;
 
   constructor(
-    private proposalService: ProposalService
-  ){}
+    private proposalService: ProposalService,
+  ) {}
 
   createProposal(proposal) {
     this.submitted = true;

@@ -14,7 +14,7 @@ var router_1 = require("@angular/router");
 var http_1 = require("@angular/http");
 var proposal_1 = require("./proposal");
 var proposal_service_1 = require("./proposal.service");
-var ProposalShowComponent = /** @class */ (function () {
+var ProposalShowComponent = (function () {
     function ProposalShowComponent(route, proposalservice, http) {
         this.route = route;
         this.proposalservice = proposalservice;

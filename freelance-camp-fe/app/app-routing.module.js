@@ -21,7 +21,7 @@ var routes = [
     { path: 'proposals/new', component: proposal_new_component_1.ProposalNewComponent },
     { path: 'proposal/:id', component: proposal_show_component_1.ProposalShowComponent }
 ];
-var AppRoutingModule = /** @class */ (function () {
+var AppRoutingModule = (function () {
     function AppRoutingModule() {
     }
     AppRoutingModule = __decorate([

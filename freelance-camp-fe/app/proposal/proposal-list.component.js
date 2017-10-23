@@ -13,7 +13,7 @@ var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var Rx_1 = require("rxjs/Rx");
 var proposal_service_1 = require("./proposal.service");
-var ProposalListComponent = /** @class */ (function () {
+var ProposalListComponent = (function () {
     function ProposalListComponent(proposalService, router) {
         this.proposalService = proposalService;
         this.router = router;
